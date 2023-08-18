@@ -1,0 +1,27 @@
+appconfig:
+  name: "gofiber-boilerplate"
+  host: "0.0.0.0"
+  port: "8080"
+  secret: "myVeryStrongSecretPassword64bitLength"
+
+database:
+  driver: "postgres"
+  host: "localhost"
+  port: "5432"
+  username: "postgres"
+  password: "postgres"
+  ssl: "disable"
+
+
+log:
+  host: "10.0.1.45"
+  port: "9200"
+  index: ""
+  user: "elastic"
+  pass: ""
+
+errorcontract:
+  json_path_file: "./script/errorContract.json"
+
+
+
